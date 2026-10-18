@@ -1,0 +1,244 @@
+{
+  "document": {
+    "assessments": 4,
+    "editors": [
+      "0x8e4233DA4D54Fe88Bb5c41284aAAC3684Fb81c81",
+      "0xe340f0FBD62102952e5be51E5e339d8BF7715d38"
+    ],
+    "head": 2,
+    "head_digest": "0f6b94f48277716e58add991e69e30905295d32b4a6fd8f6e5ef3420ecb93efd",
+    "id": 1,
+    "owner": "0x8e4233DA4D54Fe88Bb5c41284aAAC3684Fb81c81",
+    "patches": 3,
+    "title": "Workshop logistics"
+  },
+  "revisions": [
+    {
+      "digest": "2b4344ef9c2f07d5a47aaf3e06d2b1be8b6762e6a126326fcc2c055bcb09d77e",
+      "payload": {
+        "chain_id": 61999,
+        "contract": "0x4a91b4f70AA847eD0d6c67D8F36b43B82E27538d",
+        "document": 1,
+        "number": 0,
+        "parent": "",
+        "patch_id": 0,
+        "protocol": "SemanticRebase/revision/v1",
+        "sections": [
+          "Event format: This workshop is held online only.",
+          "Registration: Participants must register before attending the workshop.",
+          "Session time: Starts at 10:00 UTC."
+        ]
+      }
+    },
+    {
+      "digest": "410bd38dfd9b4ed336a463803cf5ca09bb30e308eb35936c5db2504b03fca12b",
+      "payload": {
+        "chain_id": 61999,
+        "contract": "0x4a91b4f70AA847eD0d6c67D8F36b43B82E27538d",
+        "document": 1,
+        "number": 1,
+        "parent": "2b4344ef9c2f07d5a47aaf3e06d2b1be8b6762e6a126326fcc2c055bcb09d77e",
+        "patch_id": 1,
+        "protocol": "SemanticRebase/revision/v1",
+        "sections": [
+          "Event format: This workshop is held in person only at Room A; no online access is offered.",
+          "Registration: Participants must register before attending the workshop.",
+          "Session time: Starts at 10:00 UTC."
+        ]
+      }
+    },
+    {
+      "digest": "0f6b94f48277716e58add991e69e30905295d32b4a6fd8f6e5ef3420ecb93efd",
+      "payload": {
+        "chain_id": 61999,
+        "contract": "0x4a91b4f70AA847eD0d6c67D8F36b43B82E27538d",
+        "document": 1,
+        "number": 2,
+        "parent": "410bd38dfd9b4ed336a463803cf5ca09bb30e308eb35936c5db2504b03fca12b",
+        "patch_id": 3,
+        "protocol": "SemanticRebase/revision/v1",
+        "sections": [
+          "Event format: This workshop is held in person only at Room A; no online access is offered.",
+          "Registration: Participants must register before attending the workshop.",
+          "Session time: Starts at 11:00 UTC."
+        ]
+      }
+    }
+  ],
+  "patches": [
+    {
+      "applied_revision": 1,
+      "digest": "db63937efedfce14506bf023dd3c892e09446cbb7dc4ec809232867d8c6208ba",
+      "payload": {
+        "author": "0x8e4233DA4D54Fe88Bb5c41284aAAC3684Fb81c81",
+        "base_digest": "2b4344ef9c2f07d5a47aaf3e06d2b1be8b6762e6a126326fcc2c055bcb09d77e",
+        "base_revision": 0,
+        "chain_id": 61999,
+        "changes": [
+          {
+            "section": 0,
+            "text": "Event format: This workshop is held in person only at Room A; no online access is offered."
+          }
+        ],
+        "contract": "0x4a91b4f70AA847eD0d6c67D8F36b43B82E27538d",
+        "document": 1,
+        "expires_at": 1792411513,
+        "id": 1,
+        "protocol": "SemanticRebase/patch/v1"
+      },
+      "status": "APPLIED"
+    },
+    {
+      "applied_revision": -1,
+      "digest": "61250468d9c4a91fd9be5e28f335f61d1c59f59d0e8aa6a12098bfa92e19abc5",
+      "payload": {
+        "author": "0xe340f0FBD62102952e5be51E5e339d8BF7715d38",
+        "base_digest": "2b4344ef9c2f07d5a47aaf3e06d2b1be8b6762e6a126326fcc2c055bcb09d77e",
+        "base_revision": 0,
+        "chain_id": 61999,
+        "changes": [
+          {
+            "section": 1,
+            "text": "Registration: Register to receive the online meeting link. Attendance is online only; do not travel to a physical venue."
+          }
+        ],
+        "contract": "0x4a91b4f70AA847eD0d6c67D8F36b43B82E27538d",
+        "document": 1,
+        "expires_at": 1792411554,
+        "id": 2,
+        "protocol": "SemanticRebase/patch/v1"
+      },
+      "status": "OPEN"
+    },
+    {
+      "applied_revision": 2,
+      "digest": "389fbcbf08d35e6390c5eb8bc06ea15040410b29896ef06693551a4e75138930",
+      "payload": {
+        "author": "0xe340f0FBD62102952e5be51E5e339d8BF7715d38",
+        "base_digest": "2b4344ef9c2f07d5a47aaf3e06d2b1be8b6762e6a126326fcc2c055bcb09d77e",
+        "base_revision": 0,
+        "chain_id": 61999,
+        "changes": [
+          {
+            "section": 2,
+            "text": "Session time: Starts at 11:00 UTC."
+          }
+        ],
+        "contract": "0x4a91b4f70AA847eD0d6c67D8F36b43B82E27538d",
+        "document": 1,
+        "expires_at": 1792411594,
+        "id": 3,
+        "protocol": "SemanticRebase/patch/v1"
+      },
+      "status": "APPLIED"
+    }
+  ],
+  "assessments": [
+    {
+      "digest": "91780e9922f51e603d9102dbe048a1e0fee683eef534026770a0b3cabfcfb10b",
+      "payload": {
+        "candidate": [
+          "Event format: This workshop is held online only.",
+          "Registration: Participants must register before attending the workshop.",
+          "Session time: Starts at 11:00 UTC."
+        ],
+        "chain_id": 61999,
+        "checks": {
+          "coherence": "PRESERVED",
+          "concurrent_intent": "PRESERVED",
+          "patch_intent": "PRESERVED"
+        },
+        "contract": "0x4a91b4f70AA847eD0d6c67D8F36b43B82E27538d",
+        "document": 1,
+        "head": 0,
+        "head_digest": "2b4344ef9c2f07d5a47aaf3e06d2b1be8b6762e6a126326fcc2c055bcb09d77e",
+        "id": 1,
+        "patch_digest": "389fbcbf08d35e6390c5eb8bc06ea15040410b29896ef06693551a4e75138930",
+        "patch_id": 3,
+        "protocol": "SemanticRebase/assessment/v1",
+        "status": "SAFE"
+      }
+    },
+    {
+      "digest": "528202d3f3e6ff99c12ac7e9d24876c5151c4ac5e01cc55acfeb0f9e6ce77859",
+      "payload": {
+        "candidate": [
+          "Event format: This workshop is held in person only at Room A; no online access is offered.",
+          "Registration: Participants must register before attending the workshop.",
+          "Session time: Starts at 10:00 UTC."
+        ],
+        "chain_id": 61999,
+        "checks": {
+          "coherence": "PRESERVED",
+          "concurrent_intent": "PRESERVED",
+          "patch_intent": "PRESERVED"
+        },
+        "contract": "0x4a91b4f70AA847eD0d6c67D8F36b43B82E27538d",
+        "document": 1,
+        "head": 0,
+        "head_digest": "2b4344ef9c2f07d5a47aaf3e06d2b1be8b6762e6a126326fcc2c055bcb09d77e",
+        "id": 2,
+        "patch_digest": "db63937efedfce14506bf023dd3c892e09446cbb7dc4ec809232867d8c6208ba",
+        "patch_id": 1,
+        "protocol": "SemanticRebase/assessment/v1",
+        "status": "SAFE"
+      }
+    },
+    {
+      "digest": "aeeaf616567ca17c3a4c251de8a043b8e4134b5784e7862c7429f0a1e1c3b8ba",
+      "payload": {
+        "candidate": [
+          "Event format: This workshop is held in person only at Room A; no online access is offered.",
+          "Registration: Register to receive the online meeting link. Attendance is online only; do not travel to a physical venue.",
+          "Session time: Starts at 10:00 UTC."
+        ],
+        "chain_id": 61999,
+        "checks": {
+          "coherence": "CONFLICT",
+          "concurrent_intent": "CONFLICT",
+          "patch_intent": "CONFLICT"
+        },
+        "contract": "0x4a91b4f70AA847eD0d6c67D8F36b43B82E27538d",
+        "document": 1,
+        "head": 1,
+        "head_digest": "410bd38dfd9b4ed336a463803cf5ca09bb30e308eb35936c5db2504b03fca12b",
+        "id": 3,
+        "patch_digest": "61250468d9c4a91fd9be5e28f335f61d1c59f59d0e8aa6a12098bfa92e19abc5",
+        "patch_id": 2,
+        "protocol": "SemanticRebase/assessment/v1",
+        "status": "SEMANTIC_CONFLICT"
+      }
+    },
+    {
+      "digest": "402152c2dd822bd52c3b6d49eebce6bfc7899ef039adc70e4fe16267d52928aa",
+      "payload": {
+        "candidate": [
+          "Event format: This workshop is held in person only at Room A; no online access is offered.",
+          "Registration: Participants must register before attending the workshop.",
+          "Session time: Starts at 11:00 UTC."
+        ],
+        "chain_id": 61999,
+        "checks": {
+          "coherence": "PRESERVED",
+          "concurrent_intent": "PRESERVED",
+          "patch_intent": "PRESERVED"
+        },
+        "contract": "0x4a91b4f70AA847eD0d6c67D8F36b43B82E27538d",
+        "document": 1,
+        "head": 1,
+        "head_digest": "410bd38dfd9b4ed336a463803cf5ca09bb30e308eb35936c5db2504b03fca12b",
+        "id": 4,
+        "patch_digest": "389fbcbf08d35e6390c5eb8bc06ea15040410b29896ef06693551a4e75138930",
+        "patch_id": 3,
+        "protocol": "SemanticRebase/assessment/v1",
+        "status": "SAFE"
+      }
+    }
+  ],
+  "initialAssessmentNowStale": true,
+  "roles": {
+    "owner": "0x8e4233DA4D54Fe88Bb5c41284aAAC3684Fb81c81",
+    "editorAndReviewer": "0xe340f0FBD62102952e5be51E5e339d8BF7715d38",
+    "permissionlessCommitter": "0xFfe849ea01bfD30E69f57f2081b24A74dc9f029f"
+  }
+}

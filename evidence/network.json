@@ -1,0 +1,261 @@
+[
+  {
+    "label": "deploy",
+    "hash": "0x740078138b89d993e942c042f20092cccdd998073acf5f79549b0b14a207cce0",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9": "agree",
+      "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "idle",
+      "0x5Bbbd7cdD63c0ba7f088038Cb049bDDAbE4F6fd1": "agree",
+      "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb": "idle",
+      "0x7bf4Ea55363bbe73A4dd5b3900bf03c978A63b6e": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "create sectioned document",
+    "hash": "0xa2541bfb9bcbbb54386d7e75be48b1195fa8430695f377c93f0ebe812fd55030",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x40533175AfBbAee2c030F88259Afb5aEDbCF0E05": "agree",
+      "0x5Bbbd7cdD63c0ba7f088038Cb049bDDAbE4F6fd1": "agree",
+      "0x8Ce1805d6970d54748dE7160b5b395dCC5c71F44": "agree",
+      "0xa21bc502E3578E4b3039be8c59a257198f7c3f19": "agree",
+      "0xe7eEe8a1c1690b0322d795B80A76ab2Cd1a0eAFd": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "1"
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "prepare concurrent format change",
+    "hash": "0x44e5081fd8009be94fca09aa450a60259f7abdbe7f7733a5e758cd0ac11f5fc4",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x1242E9f5bf9b253327f130E8802b7b2F438A21Ef": "agree",
+      "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9": "agree",
+      "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "agree",
+      "0x892C437da9b9CA0b6017B6f046F58E3526B46ec6": "agree",
+      "0xa21bc502E3578E4b3039be8c59a257198f7c3f19": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "1"
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "prepare cross-section dependent branch",
+    "hash": "0x3cefc86466fe3bb4bc89e27e21c213dabd7f486a8bbe12a0f8c6d070ddd406b2",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x40533175AfBbAee2c030F88259Afb5aEDbCF0E05": "agree",
+      "0x5Bbbd7cdD63c0ba7f088038Cb049bDDAbE4F6fd1": "idle",
+      "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb": "agree",
+      "0xA712cB25a4002666FA9D09477251f238dD9e06b3": "idle",
+      "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "2"
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "prepare independent time branch",
+    "hash": "0xdc2379761b19aae7327c46ac697fe5c661c37b7aa205a469d8387f13ecb940e4",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x892C437da9b9CA0b6017B6f046F58E3526B46ec6": "agree",
+      "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "idle",
+      "0xA712cB25a4002666FA9D09477251f238dD9e06b3": "agree",
+      "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21": "idle",
+      "0xf29b6947ed298d139FC2655DB15D868C9AbB3091": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "3"
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "assess time patch against initial head",
+    "hash": "0xde46cef829e30d29ea27535b606426605e97916b8c6eaf58e758493c4d99d7b7",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "idle",
+      "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb": "idle",
+      "0x8Ce1805d6970d54748dE7160b5b395dCC5c71F44": "agree",
+      "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "agree",
+      "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "1"
+      }
+    },
+    "eq_outputs": {
+      "0": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"coherence\":\"PRESERVED\"\"concurrent_intent\":\"PRESERVED\"\"patch_intent\":\"PRESERVED\"}"
+        }
+      }
+    }
+  },
+  {
+    "label": "assess format patch",
+    "hash": "0xf9f9a3ea59150e98cc8c3a99d419cd2f5b2a4d635bd9228b3e44cce806f0801b",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9": "agree",
+      "0x5Bbbd7cdD63c0ba7f088038Cb049bDDAbE4F6fd1": "agree",
+      "0x8a876C3F3a4783Bd123982bcBF3c672dc0239004": "disagree",
+      "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43": "idle",
+      "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "2"
+      }
+    },
+    "eq_outputs": {
+      "0": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"coherence\":\"PRESERVED\"\"concurrent_intent\":\"PRESERVED\"\"patch_intent\":\"PRESERVED\"}"
+        }
+      }
+    }
+  },
+  {
+    "label": "commit in-person format revision",
+    "hash": "0x1a24c94a812fcb4ba129ef33d414b5d3c7853bb5960cf84d2120847fbc605308",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x1dEcE6A694520b1d3a2e24b9f28500858C756BDb": "agree",
+      "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "idle",
+      "0x892C437da9b9CA0b6017B6f046F58E3526B46ec6": "agree",
+      "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "agree",
+      "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21": "idle"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "1"
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "detect semantic conflict across untouched section IDs",
+    "hash": "0x11de0725f209c2bf77935195e87c117fa882c10569ca65e73b41c371525b0143",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb": "agree",
+      "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "agree",
+      "0xA712cB25a4002666FA9D09477251f238dD9e06b3": "disagree",
+      "0xe7eEe8a1c1690b0322d795B80A76ab2Cd1a0eAFd": "disagree",
+      "0xf29b6947ed298d139FC2655DB15D868C9AbB3091": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "3"
+      }
+    },
+    "eq_outputs": {
+      "0": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"coherence\":\"CONFLICT\"\"concurrent_intent\":\"CONFLICT\"\"patch_intent\":\"CONFLICT\"}"
+        }
+      }
+    }
+  },
+  {
+    "label": "reassess independent time patch against new head",
+    "hash": "0x60b0601f119ab389bd9c8fdc5275c5b8f2ce6c9a8474baf6f7e474c15db344c3",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x1242E9f5bf9b253327f130E8802b7b2F438A21Ef": "agree",
+      "0xA712cB25a4002666FA9D09477251f238dD9e06b3": "idle",
+      "0xb0925568bFbCF00aADBcA053E6D0E1628ff3d530": "agree",
+      "0xe7eEe8a1c1690b0322d795B80A76ab2Cd1a0eAFd": "agree",
+      "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21": "disagree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "4"
+      }
+    },
+    "eq_outputs": {
+      "0": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"coherence\":\"PRESERVED\"\"concurrent_intent\":\"PRESERVED\"\"patch_intent\":\"PRESERVED\"}"
+        }
+      }
+    }
+  },
+  {
+    "label": "commit safe rebased time patch",
+    "hash": "0xd5c145e222feaf0813c3ee4f31f399103149079215ef80dfdefaee8c62a59c41",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x40533175AfBbAee2c030F88259Afb5aEDbCF0E05": "agree",
+      "0x8Ce1805d6970d54748dE7160b5b395dCC5c71F44": "agree",
+      "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "agree",
+      "0xA712cB25a4002666FA9D09477251f238dD9e06b3": "agree",
+      "0xb0925568bFbCF00aADBcA053E6D0E1628ff3d530": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "2"
+      }
+    },
+    "eq_outputs": {}
+  }
+]

@@ -1,0 +1,235 @@
+{
+  "note": "Initial pilot: indirect access-method cross-reference received a conservative coherence CONFLICT. Smoke stopped before any merge. Contract source was unchanged for the explicit-registration demonstration.",
+  "manifest": {
+    "network": "studionet",
+    "chain_id": 61999,
+    "rpc": "https://studio.genlayer.com/api",
+    "address": "0xAE8f22Ca324D165a8aB69D7c29f79cbB1D75760c",
+    "explorer": "https://explorer-studio.genlayer.com/address/0xAE8f22Ca324D165a8aB69D7c29f79cbB1D75760c",
+    "deployment_transaction": "0xbe55dd1e3633b8ed5ef4b80df925b897c76d1ab63c9b00a2fa76875a9199fa8b",
+    "deployer": "0x879e32a047DbD72FDAAB2c390dCdfebC5Fed4779",
+    "source_path": "contracts/semantic_rebase.py",
+    "source_sha256": "f288b12ee522258f64550062a41c22535192e388dc603d69c4f4739372c2ad2e",
+    "deployed_source_sha256": "f288b12ee522258f64550062a41c22535192e388dc603d69c4f4739372c2ad2e",
+    "byte_for_byte_match": true,
+    "runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+    "deployment_status": "FINALIZED",
+    "deployment_execution": "SUCCESS",
+    "verified_at": "2026-10-18T11:57:47.435Z"
+  },
+  "receipts": [
+    {
+      "label": "deploy",
+      "hash": "0xbe55dd1e3633b8ed5ef4b80df925b897c76d1ab63c9b00a2fa76875a9199fa8b",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "votes": {
+        "0x1dEcE6A694520b1d3a2e24b9f28500858C756BDb": "agree",
+        "0x892C437da9b9CA0b6017B6f046F58E3526B46ec6": "agree",
+        "0x8a876C3F3a4783Bd123982bcBF3c672dc0239004": "agree",
+        "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "agree",
+        "0xe7eEe8a1c1690b0322d795B80A76ab2Cd1a0eAFd": "agree"
+      },
+      "leader_result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      },
+      "eq_outputs": {}
+    },
+    {
+      "label": "create sectioned document",
+      "hash": "0x2bfedf75db9684d10716856c4142aa9c7964097d21faa5f4996fe181907ae811",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "votes": {
+        "0x1242E9f5bf9b253327f130E8802b7b2F438A21Ef": "agree",
+        "0x8Ce1805d6970d54748dE7160b5b395dCC5c71F44": "agree",
+        "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "agree",
+        "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43": "agree",
+        "0xe7eEe8a1c1690b0322d795B80A76ab2Cd1a0eAFd": "agree"
+      },
+      "leader_result": {
+        "status": "return",
+        "payload": {
+          "readable": "1"
+        }
+      },
+      "eq_outputs": {}
+    },
+    {
+      "label": "prepare concurrent format change",
+      "hash": "0x15c353d2787cf1b7cc1ea435da9b7d879f431715a9e8b445026013427fd28355",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "votes": {
+        "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "agree",
+        "0x40533175AfBbAee2c030F88259Afb5aEDbCF0E05": "agree",
+        "0x7bf4Ea55363bbe73A4dd5b3900bf03c978A63b6e": "idle",
+        "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "idle",
+        "0xa21bc502E3578E4b3039be8c59a257198f7c3f19": "agree"
+      },
+      "leader_result": {
+        "status": "return",
+        "payload": {
+          "readable": "1"
+        }
+      },
+      "eq_outputs": {}
+    },
+    {
+      "label": "prepare cross-section dependent branch",
+      "hash": "0x6d3ff54c48b094426732e1f175cfcaa65398087fd1bce045cc2f7fe0b1face5a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "votes": {
+        "0x892C437da9b9CA0b6017B6f046F58E3526B46ec6": "agree",
+        "0x8a876C3F3a4783Bd123982bcBF3c672dc0239004": "agree",
+        "0xb0925568bFbCF00aADBcA053E6D0E1628ff3d530": "agree",
+        "0xe7eEe8a1c1690b0322d795B80A76ab2Cd1a0eAFd": "idle",
+        "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21": "idle"
+      },
+      "leader_result": {
+        "status": "return",
+        "payload": {
+          "readable": "2"
+        }
+      },
+      "eq_outputs": {}
+    },
+    {
+      "label": "prepare independent time branch",
+      "hash": "0x3c13cb168308474a0ab023427baeee26036abad24f0edbbad1725f5b9ce0edd5",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "votes": {
+        "0x1242E9f5bf9b253327f130E8802b7b2F438A21Ef": "idle",
+        "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "agree",
+        "0x5Bbbd7cdD63c0ba7f088038Cb049bDDAbE4F6fd1": "agree",
+        "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb": "agree",
+        "0xA712cB25a4002666FA9D09477251f238dD9e06b3": "agree"
+      },
+      "leader_result": {
+        "status": "return",
+        "payload": {
+          "readable": "3"
+        }
+      },
+      "eq_outputs": {}
+    },
+    {
+      "label": "assess time patch against initial head",
+      "hash": "0x4123d6b55442066dd51d7918814bf523e8e78bf621644476d28b4f37f9875e05",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "votes": {
+        "0x0B50B270Eba5D9B780272C4Cf4720260177e761D": "idle",
+        "0x40533175AfBbAee2c030F88259Afb5aEDbCF0E05": "agree",
+        "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb": "idle",
+        "0x8Ce1805d6970d54748dE7160b5b395dCC5c71F44": "agree",
+        "0xA712cB25a4002666FA9D09477251f238dD9e06b3": "agree"
+      },
+      "leader_result": {
+        "status": "return",
+        "payload": {
+          "readable": "1"
+        }
+      },
+      "eq_outputs": {
+        "0": {
+          "status": "return",
+          "payload": {
+            "readable": "{\"coherence\":\"PRESERVED\"\"concurrent_intent\":\"PRESERVED\"\"patch_intent\":\"PRESERVED\"}"
+          }
+        }
+      }
+    },
+    {
+      "label": "assess format patch",
+      "hash": "0xbd855eb481dd92c6a62f4d85501f99218d5f49d7e6eb2547a2b40bbfca567dc4",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "votes": {
+        "0x1242E9f5bf9b253327f130E8802b7b2F438A21Ef": "disagree",
+        "0x892C437da9b9CA0b6017B6f046F58E3526B46ec6": "agree",
+        "0x8a876C3F3a4783Bd123982bcBF3c672dc0239004": "disagree",
+        "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43": "agree",
+        "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21": "agree"
+      },
+      "leader_result": {
+        "status": "return",
+        "payload": {
+          "readable": "2"
+        }
+      },
+      "eq_outputs": {
+        "0": {
+          "status": "return",
+          "payload": {
+            "readable": "{\"coherence\":\"CONFLICT\"\"concurrent_intent\":\"PRESERVED\"\"patch_intent\":\"PRESERVED\"}"
+          }
+        }
+      }
+    }
+  ],
+  "assessments": [
+    {
+      "digest": "24a3d304d20dc380d72b93ba4269886b1d803ded4524ccb11e5682a83e29589d",
+      "payload": {
+        "candidate": [
+          "Event format: This workshop is held online only.",
+          "Venue instructions: Use the access method stated in section 0.",
+          "Session time: Starts at 11:00 UTC."
+        ],
+        "chain_id": 61999,
+        "checks": {
+          "coherence": "PRESERVED",
+          "concurrent_intent": "PRESERVED",
+          "patch_intent": "PRESERVED"
+        },
+        "contract": "0xAE8f22Ca324D165a8aB69D7c29f79cbB1D75760c",
+        "document": 1,
+        "head": 0,
+        "head_digest": "4f9518fc34003cb241d6f566615d429da1ff64500266d02968ee7ab650d681f4",
+        "id": 1,
+        "patch_digest": "35db6cc7ec6692547cd8ae1c5e99a7bc9e8bb6100997f89f8b601384a03f099f",
+        "patch_id": 3,
+        "protocol": "SemanticRebase/assessment/v1",
+        "status": "SAFE"
+      }
+    },
+    {
+      "digest": "06302c47b3d890ab2b4b6e29ab08f4845fa2e9243668cde2fd04951c360ab6fd",
+      "payload": {
+        "candidate": [
+          "Event format: This workshop is held in person only at Room A; no online access is offered.",
+          "Venue instructions: Use the access method stated in section 0.",
+          "Session time: Starts at 10:00 UTC."
+        ],
+        "chain_id": 61999,
+        "checks": {
+          "coherence": "CONFLICT",
+          "concurrent_intent": "PRESERVED",
+          "patch_intent": "PRESERVED"
+        },
+        "contract": "0xAE8f22Ca324D165a8aB69D7c29f79cbB1D75760c",
+        "document": 1,
+        "head": 0,
+        "head_digest": "4f9518fc34003cb241d6f566615d429da1ff64500266d02968ee7ab650d681f4",
+        "id": 2,
+        "patch_digest": "1f260aee4d10ccdeac4c480787659420a1d68e9775eee646cab78f1a5c10d996",
+        "patch_id": 1,
+        "protocol": "SemanticRebase/assessment/v1",
+        "status": "SEMANTIC_CONFLICT"
+      }
+    }
+  ]
+}
